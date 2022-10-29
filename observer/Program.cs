@@ -13,7 +13,7 @@ namespace Observer
             Observer<WeatherWidgetData> widget2 = new WidgetWeather("WIDGET_2");
 
 
-            widget1. (weather);
+            widget1.Subscribe(weather);
             widget2.Subscribe(weather);
 
             weather.Notify(new WeatherWidgetData { Himidity = 2, Pressure = 4, Temperature = 5 });
