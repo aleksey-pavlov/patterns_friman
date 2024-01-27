@@ -4,9 +4,10 @@ namespace factories {
 
     public abstract class PizzaStore {
 
+        // Template method
         public Pizza OrderPizza(PizzaType type) {
 
-            var pizza = CreatePizza(type);
+            Pizza pizza = CreatePizza(type);
 
             pizza.Prepare();
             pizza.Bake();
@@ -17,6 +18,7 @@ namespace factories {
 
         }
 
+        // Factory method
         protected abstract Pizza CreatePizza(PizzaType type);
     }
 

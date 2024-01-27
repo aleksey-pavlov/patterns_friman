@@ -31,7 +31,7 @@ namespace factories
 
         public Pizza(PizzaIngredientFactory ingredientFactory)
         {
-            this.IngredientFactory = ingredientFactory;
+            IngredientFactory = ingredientFactory;
         }
 
         public void Cut()
@@ -51,12 +51,12 @@ namespace factories
 
         public void SetName(string name)
         {
-            this.Name = name;
+            Name = name;
         }
 
         public string GetName()
         {
-            return this.Name;
+            return Name;
         }
 
         // Factory method
