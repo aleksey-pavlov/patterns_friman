@@ -1,6 +1,6 @@
 using System;
 
-namespace StrategyGame
+namespace Strategy2
 {
 
     public abstract class Character

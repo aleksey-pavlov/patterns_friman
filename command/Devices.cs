@@ -14,4 +14,18 @@ namespace command
             Console.WriteLine("Light off");
         }
     }
+
+
+    public class Conditioner
+    {
+        public void On()
+        {
+            Console.WriteLine("Conditioner on");
+        }
+
+        public void Off()
+        {
+            Console.WriteLine("Conditioner off");
+        }
+    }
 }

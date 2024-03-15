@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "proxy", "proxy\proxy.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "state", "state\state.csproj", "{1B7DD5DA-8E23-4BC8-8ED2-D8F8D00A4B4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "base_oop", "strategy\base_oop.csproj", "{8BB25C41-AE27-4745-B0D0-9F81FFC518F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strategy", "strategy\strategy.csproj", "{8BB25C41-AE27-4745-B0D0-9F81FFC518F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strategy_game", "strategy_game\strategy_game.csproj", "{76B1B374-9EC8-47DD-ACA9-B57D0AD2115C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strategy_2", "strategy_game\strategy_2.csproj", "{76B1B374-9EC8-47DD-ACA9-B57D0AD2115C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "template_method", "template_method\template_method.csproj", "{3C464064-7B69-4182-B2B1-0324C1A512E0}"
 EndProject

@@ -5,7 +5,7 @@ namespace command
     public interface ICommand
     {
         void execute();
-        
+
         void undo();
     }
 
@@ -17,7 +17,7 @@ namespace command
         {
             this.light = light;
         }
-        
+
         public void execute()
         {
             light.On();
@@ -26,6 +26,26 @@ namespace command
         public void undo()
         {
             light.Off();
+        }
+    }
+
+    public class ConditionerOnCommend : ICommand
+    {
+        private Conditioner conditioner;
+
+        public ConditionerOnCommend(Conditioner conditioner)
+        {
+            this.conditioner = conditioner;
+        }
+
+        public void execute()
+        {
+            conditioner.On();
+        }
+
+        public void undo()
+        {
+            conditioner.Off();
         }
     }
 }
